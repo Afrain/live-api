@@ -32,7 +32,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.projeto.live.document.LiveDocument;
 import com.projeto.live.service.LiveService;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://spring-boot-live-ui.herokuapp.com/")
 @RestController
 @RequestMapping("/live")
 public class LiveController {
